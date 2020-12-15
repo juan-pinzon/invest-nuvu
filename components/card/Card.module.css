@@ -1,0 +1,17 @@
+.card {
+	background: linear-gradient(180deg, rgba(44, 82, 216, 0) 0%, rgba(44, 82, 216, 0.4) 100%), #54D1ED;
+	background-blend-mode: multiply, normal;
+}
+
+.card__header, .card__subtitle, .card__amount {
+	color: white;
+}
+
+.card__header h3 {
+	font-size: 25px;
+}
+
+.card__amount h2 {
+	font-size: 36px;
+}
+

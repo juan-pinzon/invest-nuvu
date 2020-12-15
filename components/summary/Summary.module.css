@@ -1,0 +1,17 @@
+.summary div {
+	display: flex;
+	justify-content: space-between;
+}
+
+.summary div span:last-child {
+	/* font-family: Open Sans; */
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 21px;
+	color: #58506B;
+}
+
+.divider {
+	border: 1px solid #FAF9FD;
+}

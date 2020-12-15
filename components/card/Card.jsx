@@ -2,7 +2,7 @@ import styles from './Card.module.css'
 
 export default function Card() {
 	return (
-		<div className={styles.card + ' rounded-2xl pt-8 pl-5 pr-2.5 pb-5'}>
+		<div className={styles.card + ' rounded-2xl box-shadow pt-8 pl-5 pr-2.5 pb-5 mb-5'}>
 			<div className={styles.card__header + ' flex justify-between leading-9'}>
 				<h3>
 					Eres estratega

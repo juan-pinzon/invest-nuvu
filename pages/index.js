@@ -5,6 +5,7 @@ import Header from '../components/header/Header'
 import Card from '../components/card/Card'
 import Summary from '../components/summary/Summary'
 import Goal from '../components/goal/Goal'
+import Portfolio from '../components/portfolio/Portfolio'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
 				<Card />
 				<Summary />
 				<Goal />
+				<Portfolio />
       </main>
     </div>
   )

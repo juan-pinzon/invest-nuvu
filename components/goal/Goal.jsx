@@ -7,7 +7,7 @@ export default function Goal() {
 				<h3 className="header__section__subtitle">Tus metas</h3>
 				<img src="/img/add_circle.png" className='header__section__img' />
 			</div>
-			<div className={styles.goal}>
+			<div className={styles.goal + ' mb-8'}>
 				<div className={styles.goal__card}>
 					<img src='/img/palm.png' />
 					<span>Viaje a Islas Canarias</span>

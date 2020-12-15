@@ -1,11 +1,10 @@
 module.exports = {
-  purge: ['./pages/**/*.js', './components/**/*.js'],
-  darkMode: false, // or 'media' or 'class'
+  purge: ['./components/**/*.{js,ts,jsx,tsx}', './pages/**/*.{js,ts,jsx,tsx}'],
+  darkMode: false, // 'media' or 'class'
   theme: {
 		fontFamily: {
 			sans: ['Open Sans']
 		},
-    extend: {},
   },
   variants: {
     extend: {},

@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Header from '../components/header/Header'
 import Card from '../components/card/Card'
 import Summary from '../components/summary/Summary'
+import Goal from '../components/goal/Goal'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
 				<Header/>
 				<Card />
 				<Summary />
+				<Goal />
       </main>
     </div>
   )

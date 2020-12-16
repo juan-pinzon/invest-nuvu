@@ -1,0 +1,27 @@
+.blog {
+	display: flex;
+	flex-direction: column;
+	@apply bg-white rounded-2xl p-5 mb-10;
+	box-shadow: 0px 8px 20px rgba(197, 166, 236, 0.05);
+}
+
+.blog__item {
+	display: flex;
+	flex-direction: row;
+}
+
+.item__detail {
+	font-style: normal;
+	font-weight: normal;
+}
+
+.item__detail > h2 {
+	font-size: 16px;
+	line-height: 21px;
+	font-weight: 600;
+}
+
+.item__detail > p {
+	font-size: 12px;
+	line-height: 14px;
+}

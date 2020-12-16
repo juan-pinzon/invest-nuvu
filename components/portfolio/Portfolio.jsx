@@ -9,7 +9,7 @@ export default function Portfolio() {
 					Estratega
 				</div>
 			</div>
-			<div className={styles.portfolio}>
+			<div className={styles.portfolio + ' mb-10'}>
 				<div className={styles.portfolio__stats + ' mb-5'}>
 					<img src='img/holding_donut.png' />
 					<div className={styles.stats__detail}>

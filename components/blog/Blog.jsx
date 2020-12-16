@@ -7,7 +7,7 @@ const data = {
 
 export default function Blog() {
 	return (
-		<div className={styles.blog}>
+		<div className={styles.blog + ' mb-20'}>
 			<Item data={data} img='cover1.png' />
 			<div className={'divider my-3.5'}></div>
 			<Item data={data} img='cover2.png' />

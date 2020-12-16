@@ -8,6 +8,7 @@ import Goal from '../components/goal/Goal'
 import Portfolio from '../components/portfolio/Portfolio'
 import Saving from '../components/saving/Saving'
 import Blog from '../components/blog/Blog'
+import Menu from '../components/menu/Menu'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+				<Menu />
 				<Header/>
 				<Card />
 				<Summary />
@@ -25,6 +27,7 @@ export default function Home() {
 				<Portfolio />
 				<Saving />
 				<Blog />
+				
       </main>
     </div>
   )

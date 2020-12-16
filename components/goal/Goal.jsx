@@ -2,7 +2,7 @@ import styles from './Goal.module.css'
 
 export default function Goal() {
 	return (
-		<>
+		<div>
 			<div className={'header__section mb-5'}>
 				<h3 className="header__section__subtitle">Tus metas</h3>
 				<img src="/img/add_circle.png" className='header__section__img' />
@@ -33,6 +33,6 @@ export default function Goal() {
 					</div>
 				</div>
 			</div>
-		</>
+		</div>
 	)
 }

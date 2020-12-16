@@ -19,15 +19,18 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-				<Menu />
-				<Header/>
-				<Card />
-				<Summary />
-				<Goal />
-				<Portfolio />
-				<Saving />
-				<Blog />
-				
+				<div></div>
+				<div>
+					<Menu />
+					<Header/>
+					<Card />
+					<Summary />
+					<Goal />
+					<Portfolio />
+					<Saving />
+					<Blog />
+				</div>
+				<div></div>
       </main>
     </div>
   )

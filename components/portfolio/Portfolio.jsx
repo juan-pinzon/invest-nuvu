@@ -2,7 +2,7 @@ import styles from './Portfolio.module.css'
 
 export default function Portfolio() {
 	return (
-		<>
+		<div>
 			<div className={'header__section mb-5'}>
 				<h3 className="header__section__subtitle">Conoce tu portafolio</h3>
 				<div className="header__section__status">
@@ -36,6 +36,6 @@ export default function Portfolio() {
 					Tu  dinero se invierte de la forma más eficiente de acuerdo al perfil de riesgo asignado por nuestro RoboAdvisor.
 				</div>
 			</div>
-		</>
+		</div>
 	)
 }

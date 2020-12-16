@@ -2,7 +2,7 @@ import styles from './Saving.module.css'
 
 export default function Saving() {
 	return (
-		<>
+		<div>
 			<div className={'header__section mb-5'}>
 				<h3 className="header__section__subtitle">Los P*t@s del ahorro</h3>
 			</div>
@@ -20,6 +20,6 @@ export default function Saving() {
 				<div></div>
 				<div></div>
 			</div>
-		</>
+		</div>
 	)
 }
